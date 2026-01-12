@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    /* height: 500px; */
+    justify-content: center;
+    align-items: center; 
+    padding-top: 100px;
+    background-image: linear-gradient( #a6c1ee 100%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgb(71, 71, 71);
+    background-color: transparent;
+    padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p {
+  font-family: Poppins,Arial;
+}
+
+input {
+  display: block;
+  margin-top: 15px ;
+  padding: 8px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgray;
+}
+
+.register{
+    font-family: Poppins;
+    margin: 15px 0 ;
+    width: 320px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(109, 109, 252);
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.social-media{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    column-gap: 10px;
+}
+
+img{
+    width: 35px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.i{
+    border: 2px solid #ccc;
+}
+
+input::placeholder{
+    font-family: Poppins;
+}
+

@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto,sans-serif;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+button,input{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 400;
+}
+
+button{
+    cursor: pointer;
+}
+
+.req{
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+}
+
+.signin{
+    background-color: #4C5FD5;
+    color: white;
+    width: 170px;
+    transition: 0.9ms;
+}
+
+.signin:hover{
+    background-color: white;
+    color: black;
+}
+
+.navSearch{
+    background-color: #fff;
+    height: auto;
+}
+
+.head{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.left{
+    width:30%;
+    padding-left: 200px;
+}
+
+.right{
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 100px;
+    gap: 25px;
+}
+
+.left , .right{
+    /* border: 3px solid lightblue; */
+    margin: auto;
+}
+
+.mid{
+    font-size: 45px;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    background-color: #DADBF1;
+    padding-left: 10px;
+}
+
+.mid h1{
+    margin: 20px;
+    font-weight: 400;
+}
+
+.mid input{
+    width: 700px;
+    margin: 20px;
+}
+
+.mid2{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    /* background-color: lightpink;
+    border: 3px solid black; */
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.mid2 div{
+    margin: auto;
+    /* border: 1px solid blue; */
+    width: 65%;
+    font-size: 25px;
+    margin:50px;
+}
+
+.heading{
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.mid2 p{
+    margin-bottom: 12px;
+}
+
+.mid2 a{
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    color: white;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    margin-top: 20px;
+}
+
+footer a, ul{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+footer p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer li{
+    font-size: 20px;
+    margin-top: 7px;
+    font-weight: 400;
+}
